@@ -57,6 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigSingleton.cs" />
+    <Compile Include="frmEstadistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadistica.Designer.cs">
+      <DependentUpon>frmEstadistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\CreadorDeEstadisticas.cs" />
+    <Compile Include="Estadistica\EstadisticaVariedad.cs" />
+    <Compile Include="Estadistica\VariedadEsta.cs" />
     <Compile Include="frmFloricola.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +98,17 @@
     <Compile Include="frmRegistro.Designer.cs">
       <DependentUpon>frmRegistro.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmEstadistica.resx">
+      <DependentUpon>frmEstadistica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConfig.resx">
       <DependentUpon>frmConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVariedad.resx">
       <DependentUpon>frmVariedad.cs</DependentUpon>

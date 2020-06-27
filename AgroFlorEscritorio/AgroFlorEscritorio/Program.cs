@@ -16,7 +16,7 @@ namespace AgroFlorEscritorio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmConfig());
+            Application.Run(new frmEstadistica());
         }
     }
 }
